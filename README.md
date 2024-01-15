@@ -1,28 +1,35 @@
-# Create T3 App
+# Chat App
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+**Tier:** 3-Advanced
 
-## What's next? How do I make an app with this?
+Real-time chat interface where multiple users can interact with each other by sending messages.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+As a MVP(Minimum Viable Product) you can focus on building the Chat interface. Real-time functionality can be added later (the bonus features).
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## User Stories
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- [ ] User is prompted to enter a username when he visits the chat app. The username will be stored in the application
+- [ ] User can see an `input field` where he can type a new message
+- [ ] By pressing the `enter` key or by clicking on the `send` button the text will be displayed in the `chat box` alongside his username (e.g. `John Doe: Hello World!`)
 
-## Learn More
+## Bonus features
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+- [ ] The messages will be visible to all the Users that are in the chat app (using WebSockets)
+- [ ] When a new User joins the chat, a message is displayed to all the existing Users
+- [ ] Messages are saved in a database
+- [ ] User can send images, videos and links which will be displayed properly
+- [ ] User can select and send an emoji
+- [ ] Users can chat in private
+- [ ] Users can join `channels` on specific topics
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Useful links and resources
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+- [Socket.io](https://socket.io)
+- [How to build a React.js chat app in 10 minutes - article](https://medium.freecodecamp.org/how-to-build-a-react-js-chat-app-in-10-minutes-c9233794642b)
+- [Build a chat application like Slack - React / JavaScript Tutorial - Youtube](https://www.youtube.com/watch?v=a-JKj7m2LIo)
+- [Socket.io Chat App Using Websockets - Youtube Tutorial](https://www.youtube.com/watch?v=tHbCkikFfDE)
 
-## How do I deploy this?
+## Example projects
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- [Chatty2](https://web-chatty.herokuapp.com/)
+- [Simple TCP Socket based Chat application](https://github.com/dularish/Simple-TCP-Socket-based-Chat-App)
